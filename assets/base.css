@@ -334,6 +334,7 @@ body,
 .color-accent-1,
 .color-accent-2 {
   color: rgba(var(--color-foreground), 0.75);
+  color: red;
   background-color: rgb(var(--color-background));
 }
 
@@ -2315,7 +2316,6 @@ product-info .loading-overlay:not(.hidden) ~ *,
   body:has(.section-header .header:not(.drawer-menu)) .announcement-bar-section .announcement-bar .slider-button--prev {
     margin-left: -1.8rem;
   }
-
 }
 
 .announcement-bar__link {
